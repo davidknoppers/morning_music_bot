@@ -5,6 +5,7 @@ import tweepy
 from forest_keys import *
 
 #set up oauth
+#never actually store your keys and secrets on github!
 auth = tweepy.OAuthHandler(ckey,csecret)
 auth.set_access_token(akey, asecret)
 
